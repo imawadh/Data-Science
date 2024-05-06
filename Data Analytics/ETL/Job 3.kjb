@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>Job 2</name>
+  <name>Job 3</name>
   <description/>
   <extended_description/>
   <job_version/>
-  <job_status>0</job_status>
   <directory>/</directory>
   <created_user>-</created_user>
-  <created_date>2024/05/06 13:38:55.660</created_date>
+  <created_date>2024/05/06 23:37:57.939</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2024/05/06 13:38:55.660</modified_date>
+  <modified_date>2024/05/06 23:37:57.939</modified_date>
   <parameters>
     </parameters>
   <slaveservers>
@@ -305,8 +304,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>224</xloc>
-      <yloc>320</yloc>
+      <xloc>192</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -317,14 +316,14 @@
       <filename/>
       <fields>
         <field>
-          <name>A:\Desktop\Nothing\Data Science\Data Analytics\ETL\Source\FurnitureSales.csv</name>
+          <name>A:\Desktop\Nothing\Data Science\Data Analytics\ETL\Destination\load.txt</name>
         </field>
       </fields>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
-      <yloc>320</yloc>
+      <xloc>432</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -334,7 +333,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>A:\Desktop\Nothing\Data Science\Data Analytics\ETL\Transformation 2.ktr</filename>
+      <filename>A:/Desktop/Nothing/Data Science/Data Analytics/ETL/Transformation 4.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -362,24 +361,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>640</xloc>
-      <yloc>320</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Delete filenames from result</name>
-      <description/>
-      <type>DELETE_RESULT_FILENAMES</type>
-      <attributes/>
-      <foldername/>
-      <specify_wildcard>Y</specify_wildcard>
-      <wildcard>false_data.xlsx</wildcard>
-      <wildcardexclude/>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>832</xloc>
-      <yloc>336</yloc>
+      <xloc>720</xloc>
+      <yloc>208</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -394,18 +377,18 @@
       <destinationBCc/>
       <replyto>awadhkishorsingh241@gmail.com</replyto>
       <replytoname>Awadh</replytoname>
-      <subject>I Just want to say nothing</subject>
+      <subject>Text Data</subject>
       <include_date>N</include_date>
       <contact_person>awadh.sot010028@pwioi.com</contact_person>
       <contact_phone/>
-      <comment>Just Love it : </comment>
+      <comment>Just it is a try to send mail </comment>
       <include_files>Y</include_files>
       <zip_files>N</zip_files>
       <zip_name/>
       <use_auth>Y</use_auth>
       <use_secure_auth>Y</use_secure_auth>
       <auth_user>awadhkishorsingh241@gmail.com</auth_user>
-      <auth_password>Encrypted 6d7a65c7b8dcae03ded293a416ba30da9bbcd8</auth_password>
+      <auth_password>Encrypted 737166c6b8c8a60dc6d292bd0da630ce86b5db</auth_password>
       <only_comment>Y</only_comment>
       <use_HTML>N</use_HTML>
       <use_Priority>N</use_Priority>
@@ -414,7 +397,7 @@
       <importance>normal</importance>
       <sensitivity>normal</sensitivity>
       <secureconnectiontype>SSL</secureconnectiontype>
-      <replyToAddresses>Awadh Kishor Singh</replyToAddresses>
+      <replyToAddresses>Awadh Kishor </replyToAddresses>
       <filetypes>
         <filetype>GENERAL</filetype>
       </filetypes>
@@ -423,8 +406,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1168</xloc>
-      <yloc>336</yloc>
+      <xloc>1072</xloc>
+      <yloc>224</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -436,8 +419,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>592</xloc>
-      <yloc>496</yloc>
+      <xloc>496</xloc>
+      <yloc>416</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -453,6 +436,15 @@
     </hop>
     <hop>
       <from>Checks if files exist</from>
+      <to>Abort job</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Checks if files exist</from>
       <to>Transformation</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -462,29 +454,11 @@
     </hop>
     <hop>
       <from>Transformation</from>
-      <to>Delete filenames from result</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Delete filenames from result</from>
       <to>Mail</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Checks if files exist</from>
-      <to>Abort job</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
   </hops>
