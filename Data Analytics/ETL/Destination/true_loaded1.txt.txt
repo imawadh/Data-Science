@@ -1,0 +1,4 @@
+Salesperson;Product;Region;Date;Item unit price;No.Items;Total Sale
+Salesperson 2;Coffee Table;;;168.9;15;2534.2
+Salesperson 1;;;;340.9;7;2386.7
+Salesperson 1;Coffee Table;;8/12/2020;168.9;4;675.8

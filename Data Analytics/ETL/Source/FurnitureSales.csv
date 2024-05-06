@@ -1,0 +1,20 @@
+Salesperson,Product,Region,Date, Item unit price , No.Items , Total Sale 
+Salesperson 1,Chair,NW,3/13/2019,340.95,6,2045.7
+Salesperson 1,Couch,NE,4/16/2019,799.95,1,799.95
+Salesperson 3,Coffee Table,NW,6/18/2019,168.95,7,1182.65
+Salesperson 3,,NW,7/24/2019,168.95,2,337.9
+Salesperson 1,Coffee Table,NE,8/21/2019,168.95,9,1520.55
+Salesperson 2,Couch,SE,9/7/2019,799.95,7,5599.65
+Salesperson 3,Couch,NW,9/7/2019,799.95,8,6399.6
+Salesperson 2,Coffee Table,,,168.95,15,2534.25
+Salesperson 1,Coffee Table,NE,9/14/2019,168.95,15,2534.25
+Salesperson 1,Couch,NE,9/25/2019,799.95,2,1599.9
+Salesperson 1,Coffee Table,NE,1/21/2020,168.95,14,2365.3
+Salesperson 1,Chair,NW,2/1/2020,340.95,2,681.9
+Salesperson 1,,,,340.95,7,2386.65
+Salesperson 1,Couch,NE,5/30/2020,799.95,9,7199.55
+Salesperson 3,Coffee Table,NW,6/7/2020,168.95,10,1689.5
+Salesperson 3,Chair,NW,6/9/2020,340.95,4,1363.8
+Salesperson 2,,SE,8/7/2020,799.95,14,11199.3
+Salesperson 2,Coffee Table,SE,8/8/2020,168.95,12,2027.4
+Salesperson 1,Coffee Table,,8/12/2020,168.95,4,675.8
