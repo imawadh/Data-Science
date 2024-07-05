@@ -1,4 +1,5 @@
 create database salesdb;
+
 use salesdb;
 CREATE TABLE Sales_01 (
     `Order_Line` INT,
