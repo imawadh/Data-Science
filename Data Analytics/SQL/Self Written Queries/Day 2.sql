@@ -174,6 +174,7 @@ where class = 12;
 	Truncate is faster than delete
 */
 
+use mydb;
 select * from t1;
 
 alter table t1
@@ -185,6 +186,36 @@ alter table t1
 drop percentage;
 
 
+
+SELECT @@autocommit;
+
+set autocommit = 0;
+use mydb;
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50),
+    salary DECIMAL(10, 2)
+);
+
+INSERT INTO employees (name, department, salary) VALUES
+('Alice', 'HR', 50000),
+('Bob', 'Engineering', 60000),
+('Charlie', 'Finance', 55000);
+
+select * from employees;
+
+select @@autocommit;
+set commit = 0;
+START TRANSACTION;
+
+UPDATE employees SET salary = 70000 WHERE name = 'Alice';
+SET SQL_SAFE_UPDATES = 0;
+commit;
+savepoint s1;
+UPDATE employees SET department = 'Operations' WHERE name = 'Bob';
+ROLLBACK TO savepoint1;
+commit;
 
 
 
