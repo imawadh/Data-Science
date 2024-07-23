@@ -4738,5 +4738,10 @@ desc products;
 select productName from products where productScale = "1:10" and productLine = "Classic Cars";
 
 
+show tables;
+
+
+
+
 
 
