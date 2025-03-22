@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # SQLALCHEMY_TRACK_MODIFIC
 db = SQLAlchemy(app)
 
 class Todo(db.Model):
-    sno = db.Column(db.Integer,primary_key = True)
+    sno = db.Column(db.Integer,primary_key=True)
     task = db.Column(db.String(200),nullable=False)
     desc = db.Column(db.String(500),nullable=False)
     data_created = db.Column(db.DateTime,default=datetime.utcnow)

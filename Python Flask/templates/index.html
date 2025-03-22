@@ -82,7 +82,7 @@
       <table class="table p-3">
         <thead>
           <tr>
-            <th scope="col">S.No.</th>
+            <!-- <th scope="col" >S.No.</th> -->
             <th scope="col">Task</th>
             <th scope="col">Description</th>
             <th scope="col">Time</th>
@@ -92,7 +92,7 @@
         <tbody>
           {% for todo in all_todo %}
           <tr>
-            <th scope="row">{{loop.index}}</th> 
+            <!-- <th scope="row" style="display: none;">{{loop.index}}</th>  -->
             <!-- {{todo.sno}} -- > agar ye use kiya hota to baad me jab kuchh bhi kisi sno ko delete karata to sidhe 1 ke baad 3 hota mtlb bich ka number nhi hota-->
             <td>{{todo.task}}</td>
             <td>{{todo.desc}}</td>
