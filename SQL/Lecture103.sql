@@ -14,7 +14,14 @@ values (7,'Rohit','Mehre');
 insert into employee_details.employees
 values(8,'Mahesh','Narang','HR',73000.00,'2024-01-24');
 
+select null is null;
+select null = null;
+
 -- How to know what values will go where 
 SELECT * FROM information_schema.columns
 WHERE table_name = 'employees';
 -- There will be a column named as ordinal position which specifies the the order of values which goes where .
+
+use employee_details;
+SELECT * FROM information_schema.statistics
+WHERE table_name = 'employees';
