@@ -1,0 +1,12 @@
+What is NumPy ?
+
+    NumPy is the fundamental package for scientific computing in Python.
+
+
+    At the core of the NumPy package, is the ndarray object. This encapsulates n-dimensional arrays of homogeneous data types, with many operations being performed in compiled code for performance.
+
+Difference Between NumPy ndArrays and Python Sequences ::: 
+
+    
+
+

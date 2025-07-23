@@ -1,0 +1,7 @@
+Contents :::
+	1. Data Visualization
+	2. Power Query Editor
+	3. DAX
+	4. Project 1 : Sales Data Analysis
+	5. Project 2 : Insurance Data Analysis
+	6. Project 3 : UPI transaction Data Analysis
