@@ -1,4 +1,7 @@
 use sales_database;
+show databases;
+
+use sales_database;
 select * from sales;
 
 -- Total sales ,avg sales , total quantity for each distint product id
