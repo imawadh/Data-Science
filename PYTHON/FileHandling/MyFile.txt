@@ -1,4 +1,0 @@
-Writing using append mode .... 
-                Hello 
-                world 
-                Inserting multiline string without \n
