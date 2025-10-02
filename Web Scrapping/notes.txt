@@ -1,0 +1,3 @@
+ambitionbox --> A company detailed review is there  
+
+when a compnay website doesn't provide api, then web scrapping is the only option ... 
