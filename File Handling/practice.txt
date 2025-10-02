@@ -1,0 +1,7 @@
+Hi Everyone
+we are learnig File I/O
+using Java
+Hello
+How
+are
+you
