@@ -1,0 +1,7 @@
+Agenda ----
+
+    1. Set of the Github {Repository}
+        a. new environment 
+        b. mini project structure (setup.py)
+        c. requirements.txt
+    Importance od setUp.py --- it is for writing your entire appliaction as a package ...

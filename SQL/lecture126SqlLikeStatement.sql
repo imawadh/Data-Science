@@ -49,4 +49,44 @@ SELECT * FROM employees_us
 WHERE firstname LIKE in ('c%','%d');
 -- in is used with exact values only .... 
 
+-- Q6 find the employees whose last name contains son
+select * from employees_us where lastname like '%son%';
+
+-- Q7 find employees whose first name conatins letter 'i' as the second charcter
+select * from employees_us where firstname like '_i%';
+
+
+-- Q8 find employees whose last name starts with any letter between 'A' and 'L'
+select * from employees_us where lastname regexp '^[A-La-l]';
+
+-- Q9 Find employees whose whose first name doesn't contain 'o'alter
+select * from employees_us where firstname not like '%o%';
+select * from employees_us where firstname not regexp 'o';
+
+
+-- Q10 Find employees whose last name contains with 'a' and has exactly length of 5
+select * from employees_us;
+select * from employees_us where lastname regexp '^.{6}$' 
+and lastname regexp 'a';
+-- or
+select * from employees_us where lastname regexp '^.{6}$' 
+and lastname like '%a%';
+
+-- Q11 Find employees whose department starts with 'Mar' and ends with 'ing'
+select * from employees_us where department like 'Mar%ing';
+
+-- Q12 Find employees whose firstname has 'a' in the third position
+select * from employees_us where firstname like '__a%';
+
+-- Q13 Find the employees whose last name starts with 'Br' or 'Bl'
+select * from employees_us where lastname like 'Br%' or lastname like 'Bl%';
+
+-- Q14 find employees whose first name starts with vowel 
+select * from employees_us where firstname regexp '^[aeiouAEIOU]';
+
+
+-- Q14 find employees whose first name does not start with vowel 
+select * from employees_us where firstname regexp '^[^aeiouAEIOU]';
+
+
 

@@ -1,7 +1,51 @@
 Contents :::
 	1. Data Visualization
 	2. Power Query Editor
-	3. DAX
+	3. DAX [ Data Analysis Expression ]
 	4. Project 1 : Sales Data Analysis
 	5. Project 2 : Insurance Data Analysis
 	6. Project 3 : UPI transaction Data Analysis
+	7. Miscellaneous Section
+	8. Interview Questions 
+
+
+
+
+Day to Day Working of a Data Analyst ::
+
+	1. Attending daily calls [Meetings]
+	2. Extracting, Cleaning and Analysing Data
+	3. Documentation
+	4. Client Interaction
+	5. Collaborating with different teams 
+	6. Preparing ad-hoc reports 
+	7. Responding to queries and questions on mail 
+	8. Incorporating Feedbacks
+	9. Sharing and Maintaining the reports 
+	10. Preparing Reconciliation and Data Visualisation
+
+What is Power BI and why do we use it ? 
+	BI means Business Intelligence 
+	It is Microsoft business intelligence visualization tool  that presents data in the form of reports and dashboards to help users visualize data, share insights, and make data-driven decisions. ... 
+	
+Components of Power BI ::: 
+	1. Power BI Desktop
+	2. Power BI Service 
+	3. Power BI Mobile Apllications 
+
+General Workflow ::
+	1. Data Gathering 
+	2. Data Preparation
+	3. Data Modeling --> 
+	4. Reporting
+	5. Publishing the report to Power Bi Service 
+	6. Creating DashBoard 
+	7. Sharing the reports and Dashboards 
+
+Contents :::
+	Creating Bar Charts
+	Creating a column Chart
+	
+
+
+	 
