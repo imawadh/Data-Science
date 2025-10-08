@@ -13,6 +13,7 @@ def login():
 
 @app.route("/welcome",methods=["POST"])
 def welcome():
+    # Here, database it used ... 
     valid_users = {
         "imawadh" : "123",
         "imkishor" : "456",
