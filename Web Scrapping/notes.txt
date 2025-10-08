@@ -1,3 +1,12 @@
 ambitionbox --> A company detailed review is there  
 
 when a compnay website doesn't provide api, then web scrapping is the only option ... 
+
+.find 
+.find_all()
+.get("attributeName")
+.select("tagName./#className/id")
+.find(id="")
+.find(class_="")  ---> Class is already a reserved keyword in python for objects
+.children
+.parent 
