@@ -1,0 +1,13 @@
+{% extends 'base-template.html' %}
+
+{% block title %}
+    Successfully Submitted
+{% endblock %}
+
+{% block main %}
+    <main>
+        Form Submitted Successfully 
+        <a href="{{url_for('/home')}}">Back to Home Page</a>
+    </main>
+{% end block %}
+

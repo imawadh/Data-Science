@@ -1,0 +1,12 @@
+{% extends 'base-template.html' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block main %}
+    <p>Welcome to the home page!</p>
+    <a href="{{url_for('feedback')}}">Hello</a>
+{% endblock %}
+
+{% block footer %}
+    <p>&copy; 2025 YourSite. All rights reserved.</p>
+{% endblock %}

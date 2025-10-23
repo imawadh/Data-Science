@@ -33,3 +33,14 @@ Summary:
 |    ndim	    |   Number of dimensions	    |   Integer	2       |
 |    shape	    |   Size along each dimension	|   Tuple	(2, 3)  |
 ---------------------------------------------------------------------
+
+Each row in a dataset is 1D tensor or vector ... it does not matter that vecor is of how many diemsnions -- i.e. number of values in vactor is the domension of the vector. 
+when a set of values are packed within [] the form a 1 dimenional tensor and when there in in open state/ free state they are zero dimensional tensor.. 
+
+it means -- > 1d tsnors are collection of 0D tensors 
+simialary --> 2D tensors are collection of 1d tensors
+and 3d tensors are collection of 2d Tensors ...
+and a particluar vector many contain 'n' 0D tensors which many have 'n' dimension..
+
+Look at the 3dTensor Image for how 3d Tensors is used...  it is generally used in NLP...
+

@@ -47,25 +47,17 @@ Contents :::
 	Creating a column Chart
 
 
+Data Preparation uses Transform Data feature when we load our data in Power BI .. 
+	1. when preparing the data you should give a look to data type of column once.
+	2. Data Profiling ::: Data profiling is the process of examining data from existing sources to understand its structure, content, quality, and interrelationships, and to collect statistics about it. It is done in View Tab of Power Bi In Transformation section while loading the data. Clumn Distribution, Column Profile and Column Quality ... 
 
-Cardinality ::
-	How are columns values of one table related to the column of another table ... 
+	3. Appending Queries :: 
 	
-	one - one relationship ---> 1 row is related to one row in another table 
 
-	one - many relationship ---> 1 row is related to multiple rows in another table  
-
-	many - many relationship ---> many rows are related to many rows in another table
-
-	many - one relationship ---> many rows in table 1 is related to one row in other table 
-
-
-
-Star Schema ::
-	Facts and dimension table .... 
-	In facts table frequently changing data is kept while in dimension table fixed data or change is very less is kept.. 
-
-	It reduces data duplicacy of certain columns.  
+JOINs 
+Left :: all values from left and matching values from right
+left inner :: non matching from both are excluded ==  inner join 
+left outer :: all the left are taken with the matching in right
 	
 
 

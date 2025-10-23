@@ -1,0 +1,18 @@
+{% extends "base-template.html" %}
+
+{% block title %}FeedBack Form Page{% endblock %}
+
+{% block main %}
+    <form method="POST" action="/submit-feedback">
+        <input type="text" name="name" id="" placeholder="Enter your Name">
+        <br>
+        <textarea name="msg" placeholder="Enter you Feedback Message">
+        </textarea>
+        <br>
+        <button type="submit">Submit Feedback</button>
+    </form>
+{% endblock %}
+
+{% block footer %}
+    <p>&copy; 2025 YourSite. All rights reserved.</p>
+{% endblock %}

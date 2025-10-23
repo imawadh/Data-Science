@@ -1,0 +1,25 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Default Title{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Site Header</h1>
+    </header>
+
+    <main>
+        {% block main %}
+            <p>This is the default main content.</p>
+        {% endblock %}
+    </main>
+
+    <footer>
+        {% block footer %}
+            <p>Default footer content</p>
+        {% endblock %}
+    </footer>
+</body>
+</html>
